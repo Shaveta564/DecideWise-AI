@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>DecideWise AI</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+  <div class="container">
+
+    <div class="header">
+      <h1>🤖 DecideWise AI</h1>
+      <p>Smart Decision Assistant powered by AI</p>
+    </div>
+
+    <div class="card">
+
+      <textarea id="input" placeholder="Describe your situation..."></textarea>
+
+      <select id="category">
+        <option>Career</option>
+        <option>Studies</option>
+        <option>Life</option>
+        <option>Relationships</option>
+      </select>
+
+      <button onclick="analyze()">Analyze Decision ⚡</button>
+
+    </div>
+
+    <div id="output" class="output"></div>
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
